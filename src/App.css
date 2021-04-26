@@ -1,0 +1,20 @@
+.App {
+  margin: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.cols {
+  display: flex;
+}
+
+.col {
+  width: 30%;
+}
+
+.date {
+  font-size: 0.8rem;
+}

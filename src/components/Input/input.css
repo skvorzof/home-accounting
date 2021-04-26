@@ -1,0 +1,18 @@
+.input-box {
+  display: flex;
+}
+input {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 3px;
+  padding: 13px;
+  font-size: calc(10px + 2vmin);
+}
+
+button {
+  border-radius: 3px;
+  font-size: calc(10px + 2vmin);
+  background: #6c88d9;
+  border: none;
+  color: #fff;
+}
