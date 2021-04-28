@@ -34,6 +34,7 @@ export const Input = (props) => {
 
     inpRef.current.value = '';
   };
+
   return (
     <div className="input-box">
       <input ref={inpRef} type="number" placeholder={placeholder} />
