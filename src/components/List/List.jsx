@@ -5,10 +5,11 @@ export const List = (props) => {
   return (
     <ul>
       {data.map((item) => {
-        let date = new Date(item.date).toDateString('ru');
+        // Форматируем дату из Timestamp
+        let date = new Intl.DateTimeFormat('ru-RU').format(item.date);
         return (
           <li key={item.date}>
-            {item.value} <span className="date">{date}</span>
+            {item.value} <span className="date"> - {date}</span>
           </li>
         );
       })}
