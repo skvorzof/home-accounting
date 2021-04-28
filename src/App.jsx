@@ -17,11 +17,11 @@ function App() {
       <h1>Показания:</h1>
       <div className="cols">
         <div className="col">
-          <h2>Вода</h2>
+          <h2>Вода:</h2>
           <List data={water} />
         </div>
         <div className="col">
-          <h2>Энергия</h2>
+          <h2>Энергия:</h2>
           <List data={energy} />
         </div>
       </div>

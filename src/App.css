@@ -16,5 +16,5 @@
 }
 
 .date {
-  font-size: 0.8rem;
+  font-size: calc(5px + 1vmin);
 }
