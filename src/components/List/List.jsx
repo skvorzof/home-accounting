@@ -2,7 +2,6 @@ import React from 'react';
 
 export const List = (props) => {
   const { data } = props;
-  console.log(data.reverse());
   return (
     <ul>
       {data
